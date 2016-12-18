@@ -16,10 +16,10 @@
 //= require turbolinks
 //= require_tree .
 
-let hide_spinner = () => {
+var hide_spinner = function() {
   $('#spinner').hide();
 }
 
-let show_spinner = () => {
+var show_spinner = function() {
   $('#spinner').show();
 }
